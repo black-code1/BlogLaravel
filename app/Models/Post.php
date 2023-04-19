@@ -6,9 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * @method static findOrFail(string $id)
- * @method static paginate(int $int)
- * @property mixed $slug
+ * @mixin IdeHelperPost
  */
 class Post extends Model
 {
